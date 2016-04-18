@@ -7,7 +7,7 @@ angular.module('DataGrow', ['ui.router'])
 
     $stateProvider
         .state(' Dashboard ', {
-            url: `/`,
+            url: `/dashboard/home`,
             templateUrl: `../views/dashboard.html`
         })
 
