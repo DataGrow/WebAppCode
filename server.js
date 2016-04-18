@@ -1,14 +1,21 @@
-var  express = require('express'),
-	 app = express(),
-	 bodyParser = require('body-parser'),
-	 mongoose = require('mongoose'),
-	 session = require('express-session'),
-	 cors = require('cors'),
-	 port = 8080,
-	 corsOptions = {
+var express = require('express'),
+	  app = express(),
+    session = require('express-session'),
+
+    port = process.env.PORT || 8000;
+    server = require('http').createServer(),
+    WebSocketServer = require('ws').Server,
+    wss = new WebSocketServer({ server: server })
+
+	  bodyParser = require('body-parser'),
+	  cors = require('cors'),
+    corsOptions = {
         origin: 'http://localhost:' + port
-     },
-     mongoUri = 'mongodb://localhost:27017/datagrow';
+    },
+   
+    mongoose = require('mongoose'),
+    mongoUri = 'mongodb://localhost:27017/datagrow',		 
+	  
 
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
@@ -17,10 +24,21 @@ app.use(express.static(__dirname + '/public'));
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
         console.log('Connected to MongoDB at ' + mongoUri);
-   });
-
-
-
-app.listen(port, function() {
-	console.log('Listening on ' + port);
 });
+
+wss.on('connection', function connection(ws) {
+  
+  ws.send('Connected to WebSocket');
+
+  ws.on('message', function incoming(message) {
+    console.log('received: %s', message);
+  });
+    
+});
+
+server.on('request', app);
+server.listen(port, function () { console.log('Listening on ' + server.address().port) });
+
+
+
+

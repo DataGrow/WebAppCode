@@ -2,7 +2,7 @@
   "name": "GroupProject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,8 @@
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
-    "mongoose": "^4.4.12"
+    "http": "0.0.0",
+    "mongoose": "^4.4.12",
+    "ws": "^1.1.0"
   }
 }
