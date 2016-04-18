@@ -9,7 +9,7 @@ const express = require('express'),
 		bodyParser = require('body-parser'),
 		cors = require('cors'),
     corsOptions = {
-        origin: 'http://dallasdataponics.herokuapp.com'
+        origin: 'http://localhost:' + port
     },
     mongoose = require('mongoose'),
     mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/user';
