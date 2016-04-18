@@ -1,6 +1,6 @@
 angular.module('DataGrow', ['ui.router'])
 
-	.config( function ($stateProvider,$urlRouterProvider,$ocLazyLoadProvider ) {
+	.config( function ($stateProvider,$urlRouterProvider ) {
 
 
     $urlRouterProvider.otherwise('/dashboard/home');
