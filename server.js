@@ -24,6 +24,10 @@ mongoose.connection.once('open', function() {
         console.log('Connected to MongoDB at ' + mongoUri);
 });
 
+app.get(`/`, function ( req, res ) {
+    res.send(`Hello World!`)
+});
+
 wss.on('connection', function connection(ws) {
   
   ws.send('Connected to WebSocket');
