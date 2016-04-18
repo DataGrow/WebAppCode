@@ -5,16 +5,14 @@ var express = require('express'),
     port = process.env.PORT || 8000;
     server = require('http').createServer(),
     WebSocketServer = require('ws').Server,
-    wss = new WebSocketServer({ server: server })
-
-	  bodyParser = require('body-parser'),
-	  cors = require('cors'),
+    wss = new WebSocketServer({ server: server }),
+		bodyParser = require('body-parser'),
+		cors = require('cors'),
     corsOptions = {
         origin: 'http://localhost:' + port
     },
-   
     mongoose = require('mongoose'),
-    mongoUri = 'mongodb://localhost:27017/datagrow',		 
+    mongoUri = 'mongodb://localhost:27017/datagrow';
 	  
 
 app.use(cors(corsOptions));
