@@ -15,9 +15,9 @@ const express = require('express'),
     mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/dataponics';
 	  
 
-// app.use(cors());
-// app.use(bodyParser.json());
-// app.use(express.static(__dirname + '/public'));
+app.use(cors());
+app.use(bodyParser.json());
+app.use(express.static(__dirname + '/public'));
 
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
@@ -30,14 +30,9 @@ wss.on('connection', function connection(ws) {
 
   ws.on('message', function incoming(message) {
     ws.send(message);
-    console.log('received: %s', message);
   });
     
 });
 
 server.on('request', app);
 server.listen(port, function () { console.log('Listening on ' + server.address().port) });
-
-
-
-
