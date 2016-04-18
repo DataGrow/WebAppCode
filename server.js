@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-var express = require('express') ,
-	app = express() ,
-  session = require('express-session') ,
-
-  port = process.env.PORT || 8000 ,
-  server = require('http').createServer() ,
-  WebSocketServer = require('ws').Server ,
-  wss = new WebSocketServer({ server: server }) ,
-
-	bodyParser = require('body-parser') ,
-	cors = require('cors') ,
-    
-   
-  mongoose = require('mongoose') ,
-  mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/dataponics';		 
-=======
 const express = require('express'),
 	  app = express(),
     session = require('express-session'),
@@ -30,7 +13,6 @@ const express = require('express'),
     },
     mongoose = require('mongoose'),
     mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/user';
->>>>>>> 57a67d6e30331c6a38b8386b8f72f5516211f29a
 	  
 
 // app.use(cors());
