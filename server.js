@@ -15,17 +15,13 @@ const express = require('express'),
     mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/user';
 	  
 
-// app.use(cors());
-// app.use(bodyParser.json());
-// app.use(express.static(__dirname + '/public'));
+app.use(cors());
+app.use(bodyParser.json());
+app.use(express.static(__dirname + '/public'));
 
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
         console.log('Connected to MongoDB at ' + mongoUri);
-});
-
-app.get(`/`, function ( req, res ) {
-    res.send(`Hello World!`)
 });
 
 wss.on('connection', function connection(ws) {
