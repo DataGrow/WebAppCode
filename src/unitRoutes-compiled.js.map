@@ -1,0 +1,1 @@
+{"version":3,"sources":["unitRoutes.js"],"names":[],"mappings":";;AAAA,IAAI,WAAW,QAAQ,eAAR,CAAX;;AAEJ,OAAO,OAAP,GAAiB,UAAU,GAAV,EAAgB;;AAE7B,QAAI,KAAJ,cAF6B;CAAhB","file":"unitRoutes-compiled.js","sourcesContent":["let unitCtrl = require('./unitCtrl.js');\n\nmodule.exports = function( app ) {\n    \n    app.route(`/api/Unit`)\n    \n    \n};"]}
