@@ -42,4 +42,10 @@ var Active = new Schema(
 
 mongoose.model('ActiveUnits', ActiveUnits);
 
+var user = db.model('UserInfo');
 
+
+var admin = new user();
+admin.username = "sss";
+admin.password = "ee";
+admin.save();
