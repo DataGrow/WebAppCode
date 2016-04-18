@@ -11,20 +11,12 @@ let Data = new Schema(
 
 let Hour = new Schema(
 {
-<<<<<<< HEAD
     data: [ Data ]
-=======
-    data : [ Data ]
->>>>>>> 57a67d6e30331c6a38b8386b8f72f5516211f29a
 });
 
 let Day = new Schema(
 {
-<<<<<<< HEAD
     hour: [ Hour ]
-=======
-    hour : [ Hour ]
->>>>>>> 57a67d6e30331c6a38b8386b8f72f5516211f29a
 });
 
 let Units = new Schema(
@@ -34,25 +26,17 @@ let Units = new Schema(
     harvest: {
         id: { type: Number, required: true},
         startTime: { type: Date, default: Date.now }
-<<<<<<< HEAD
     }, 
 
     day: [ Day ]
 });
 
 var ActiveUnits = new Schema(
-=======
-    },
-    day: [ Day ]
-});
-
-let Active = new Schema(
->>>>>>> 57a67d6e30331c6a38b8386b8f72f5516211f29a
 {
     numUnits: { type: Number, required: true },
     units: [ Units ]  
 });
 
-module.exports = mongoose.model('ActiveUnits', Active);
+module.exports = mongoose.model('ActiveUnits', ActiveUnits);
 
 
