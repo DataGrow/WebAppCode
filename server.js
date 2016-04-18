@@ -1,4 +1,4 @@
-var express = require('express'),
+const express = require('express'),
 	  app = express(),
     session = require('express-session'),
 
@@ -12,12 +12,12 @@ var express = require('express'),
         origin: 'http://localhost:' + port
     },
     mongoose = require('mongoose'),
-    mongoUri = 'mongodb://localhost:27017/datagrow';
+    mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/user';
 	  
 
-app.use(cors(corsOptions));
-app.use(bodyParser.json());
-app.use(express.static(__dirname + '/public'));
+// app.use(cors());
+// app.use(bodyParser.json());
+// app.use(express.static(__dirname + '/public'));
 
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
@@ -29,6 +29,7 @@ wss.on('connection', function connection(ws) {
   ws.send('Connected to WebSocket');
 
   ws.on('message', function incoming(message) {
+    ws.send(message);
     console.log('received: %s', message);
   });
     

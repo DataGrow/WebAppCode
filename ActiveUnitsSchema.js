@@ -1,43 +1,42 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
 
-var Data = new Schema(
+let Data = new Schema(
 {
-    waterTemp : { type: Number, required: true },
-    airTemp : { type: Number, required: true },
-    ph : { type: Number, required: true },
-    humidity : { type: Number, require: true },
-    light : { type: Number, require: true }
-
+    waterTemp: { type: Number, required: true },
+    airTemp: { type: Number, required: true },
+    humidity: { type: Number, require: true },
+    light: { type: Number, require: true }
 });
 
-var Hour = new Schema(
+let Hour = new Schema(
 {
-    data : [ Data ]
+    data: [ Data ]
 });
 
-var Day = new Schema(
+let Day = new Schema(
 {
-    hour : [ Hour ]
+    hour: [ Hour ]
 });
 
-var Units = new Schema(
+let Units = new Schema(
 {
-    name: { type: String, required: true, default: "Unit00"},
-    product: { type: String, required: true, default: "Micro Greens"},
+    name: { type: String, required: true },
+    product: { type: String, required: true },
     harvest: {
         id: { type: Number, required: true},
         startTime: { type: Date, default: Date.now }
-    },
+    }, 
+
     day: [ Day ]
 });
 
-var Active = new Schema(
+var ActiveUnits = new Schema(
 {
     numUnits: { type: Number, required: true },
     units: [ Units ]  
 });
 
-mongoose.model('ActiveUnits', ActiveUnits);
+module.exports = mongoose.model('ActiveUnits', ActiveUnits);
 
 
