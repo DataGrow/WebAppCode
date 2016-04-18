@@ -1,4 +1,4 @@
-var express = require('express'),
+let express = require('express'),
 	  app = express(),
     session = require('express-session'),
 
@@ -12,7 +12,7 @@ var express = require('express'),
         origin: 'http://localhost:' + port
     },
     mongoose = require('mongoose'),
-    mongoUri = 'mongodb://localhost:27017/datagrow';
+    mongoUri = 'mongodb://user:dataponics@011331.mlab.com:11331/user';
 	  
 
 app.use(cors(corsOptions));

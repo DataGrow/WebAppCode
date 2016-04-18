@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
 
-var Data = new Schema(
+let Data = new Schema(
 {
     waterTemp : { type: Number, required: true },
     airTemp : { type: Number, required: true },
@@ -11,17 +11,17 @@ var Data = new Schema(
 
 });
 
-var Hour = new Schema(
+let Hour = new Schema(
 {
     data : [ Data ]
 });
 
-var Day = new Schema(
+let Day = new Schema(
 {
     hour : [ Hour ]
 });
 
-var Units = new Schema(
+let Units = new Schema(
 {
     name: { type: String, required: true, default: "Unit00"},
     product: { type: String, required: true, default: "Micro Greens"},
@@ -32,12 +32,12 @@ var Units = new Schema(
     day: [ Day ]
 });
 
-var Active = new Schema(
+let Active = new Schema(
 {
     numUnits: { type: Number, required: true },
     units: [ Units ]  
 });
 
-mongoose.model('ActiveUnits', ActiveUnits);
+module.exports = mongoose.model('ActiveUnits', Active);
 
 
