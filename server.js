@@ -1,4 +1,4 @@
-let express = require('express'),
+const express = require('express'),
 	  app = express(),
     session = require('express-session'),
 
@@ -12,7 +12,7 @@ let express = require('express'),
         origin: 'http://localhost:' + port
     },
     mongoose = require('mongoose'),
-    mongoUri = 'mongodb://user:dataponics@011331.mlab.com:11331/user';
+    mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/user';
 	  
 
 app.use(cors(corsOptions));
