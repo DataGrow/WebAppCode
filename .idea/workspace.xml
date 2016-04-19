@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bdf4477d-e1ca-4781-8575-2e2bb6d53223" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/websocketService.js" afterPath="$PROJECT_DIR$/public/js/websocketService.js" />
     </list>
     <ignored path="GroupProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,31 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="websocketService.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="websocketService.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/websocketService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -127,11 +119,11 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/unitRoutes.js" />
         <option value="$PROJECT_DIR$/ActiveUnitsSchema.js" />
-        <option value="$PROJECT_DIR$/public/js/websocketService.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/views/dashboard.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/js/websocketService.js" />
       </list>
     </option>
   </component>
@@ -200,20 +192,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="extraneous" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,6 +246,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/light-bootstrap-dashboard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/gulpfile.js</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/dashboard.html</PATH>
         </FILE-GROUP>
@@ -277,40 +257,52 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/animate.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/demo.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/light-bootstrap-dashboard.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gulpfile.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_alerts.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_cards.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_chartist.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_checkbox-radio-switch.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_dropdown.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_footers.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_inputs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_misc.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_mixins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_navbars.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_responsive.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_sidebar-and-main-panel.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_tables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_typography.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_variables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_cards.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_chartist.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_icons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_inputs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_labels.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_morphing-buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_navbars.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_social-buttons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_tabs.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_transparency.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_vendor-prefixes.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/light-bootstrap-dashboard.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/animate.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/demo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/pe-icon-7-stroke.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/default-avatar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-0.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/face-7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/faces/tim_vector.jpe</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/loading-bubbles.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/mask.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/new_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/sidebar-1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/sidebar-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/sidebar-3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/sidebar-4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/sidebar-5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/tim_80x80.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/bootstrap-checkbox-radio-switch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/bootstrap-notify.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/bootstrap-select.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/chartist.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/demo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/jquery-1.10.2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/light-bootstrap-dashboard.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/icons.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/maps.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/notifications.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/table.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/template.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/typography.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/upgrade.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/user.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -318,6 +310,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/animate.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/demo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/main.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -466,7 +462,7 @@
       <updated>1460731803100</updated>
       <workItem from="1460731812371" duration="1841000" />
       <workItem from="1460992070092" duration="3843000" />
-      <workItem from="1460998960052" duration="8740000" />
+      <workItem from="1460998960052" duration="9274000" />
     </task>
     <task id="LOCAL-00001" summary="fleshing out file structure">
       <created>1460994338154</created>
@@ -500,7 +496,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14424000" />
+    <option name="totallyTimeSpent" value="14958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-66" width="1920" height="1080" extended-state="0" />
@@ -508,11 +504,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16719915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.5021299" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13663366" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09371672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.5042598" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13663366" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09371672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.49574015" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -650,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/websocketService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -700,8 +688,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/websocketService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding />
         </state>
       </provider>
