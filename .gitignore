@@ -3,3 +3,5 @@ extraneous
 node_modules
 
 .idea
+
+.babelrc

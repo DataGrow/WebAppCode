@@ -2,97 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdf4477d-e1ca-4781-8575-2e2bb6d53223" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/unitRoutes-compiled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/bootstrap.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/unitRoutes-compiled.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/animate.min.css" afterPath="$PROJECT_DIR$/styles/css/animate.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/demo.css" afterPath="$PROJECT_DIR$/styles/css/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/styles/css/light-bootstrap-dashboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/styles/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/styles/css/pe-icon-7-stroke.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.eot" afterPath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.ttf" afterPath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.woff" afterPath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/default-avatar.png" afterPath="$PROJECT_DIR$/images/default-avatar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-0.jpg" afterPath="$PROJECT_DIR$/images/faces/face-0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-1.jpg" afterPath="$PROJECT_DIR$/images/faces/face-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-2.jpg" afterPath="$PROJECT_DIR$/images/faces/face-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-3.jpg" afterPath="$PROJECT_DIR$/images/faces/face-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-4.jpg" afterPath="$PROJECT_DIR$/images/faces/face-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-5.jpg" afterPath="$PROJECT_DIR$/images/faces/face-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-6.jpg" afterPath="$PROJECT_DIR$/images/faces/face-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/face-7.jpg" afterPath="$PROJECT_DIR$/images/faces/face-7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/faces/tim_vector.jpe" afterPath="$PROJECT_DIR$/images/faces/tim_vector.jpe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/favicon.ico" afterPath="$PROJECT_DIR$/images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/loading-bubbles.svg" afterPath="$PROJECT_DIR$/images/loading-bubbles.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/mask.png" afterPath="$PROJECT_DIR$/images/mask.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/new_logo.png" afterPath="$PROJECT_DIR$/images/new_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/sidebar-1.jpg" afterPath="$PROJECT_DIR$/images/sidebar-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/sidebar-2.jpg" afterPath="$PROJECT_DIR$/images/sidebar-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/sidebar-3.jpg" afterPath="$PROJECT_DIR$/images/sidebar-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/sidebar-4.jpg" afterPath="$PROJECT_DIR$/images/sidebar-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/sidebar-5.jpg" afterPath="$PROJECT_DIR$/images/sidebar-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/tim_80x80.png" afterPath="$PROJECT_DIR$/images/tim_80x80.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/app-compiled.js" afterPath="$PROJECT_DIR$/js/app-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/app-compiled.js.map" afterPath="$PROJECT_DIR$/js/app-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap-checkbox-radio-switch.js" afterPath="$PROJECT_DIR$/js/bootstrap-checkbox-radio-switch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/js/bootstrap-notify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap-select.js" afterPath="$PROJECT_DIR$/js/bootstrap-select.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/chartist.min.js" afterPath="$PROJECT_DIR$/js/chartist.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/demo.js" afterPath="$PROJECT_DIR$/js/demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/js/jquery-1.10.2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/light-bootstrap-dashboard.js" afterPath="$PROJECT_DIR$/js/light-bootstrap-dashboard.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/mainCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/mainCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/websocketService.js" afterPath="$PROJECT_DIR$/js/services/websocketService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/dashboard.html" afterPath="$PROJECT_DIR$/partials/dashboard.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/icons.html" afterPath="$PROJECT_DIR$/partials/icons.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/maps.html" afterPath="$PROJECT_DIR$/partials/maps.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/notifications.html" afterPath="$PROJECT_DIR$/partials/notifications.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/table.html" afterPath="$PROJECT_DIR$/partials/table.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/template.html" afterPath="$PROJECT_DIR$/partials/template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/typography.html" afterPath="$PROJECT_DIR$/partials/typography.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/upgrade.html" afterPath="$PROJECT_DIR$/partials/upgrade.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/views/user.html" afterPath="$PROJECT_DIR$/partials/user.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_alerts.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_alerts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_buttons.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_cards.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_cards.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_chartist.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_chartist.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_checkbox-radio-switch.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_checkbox-radio-switch.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_dropdown.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_dropdown.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_footers.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_footers.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_inputs.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_inputs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_misc.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_misc.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_mixins.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_navbars.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_navbars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_responsive.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_responsive.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_sidebar-and-main-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_tables.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_typography.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_typography.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/_variables.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_cards.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_cards.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_chartist.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_icons.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_inputs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_labels.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_morphing-buttons.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_morphing-buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_navbars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_social-buttons.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_social-buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_tabs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_transparency.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/lbd/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/styles/sass/lbd/mixins/_vendor-prefixes.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/light-bootstrap-dashboard.scss" afterPath="$PROJECT_DIR$/styles/sass/light-bootstrap-dashboard.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/unitCtrl-compiled.js" afterPath="$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/unitCtrl-compiled.js.map" afterPath="$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/unitCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/unitCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/unitRoutes-compiled.js.map" afterPath="$PROJECT_DIR$/js/unitRoutes-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/unitRoutes.js" afterPath="$PROJECT_DIR$/js/unitRoutes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ActiveUnitsSchema.js" afterPath="$PROJECT_DIR$/server/routes/ActiveUnitsSchema.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/default-avatar.png" afterPath="$PROJECT_DIR$/public/images/default-avatar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-0.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-1.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-2.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-3.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-4.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-5.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-6.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-7.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/tim_vector.jpe" afterPath="$PROJECT_DIR$/public/images/faces/tim_vector.jpe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/favicon.ico" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/loading-bubbles.svg" afterPath="$PROJECT_DIR$/public/images/loading-bubbles.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mask.png" afterPath="$PROJECT_DIR$/public/images/mask.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/new_logo.png" afterPath="$PROJECT_DIR$/public/images/new_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-1.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-2.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-3.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-4.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-5.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tim_80x80.png" afterPath="$PROJECT_DIR$/public/images/tim_80x80.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app-compiled.js" afterPath="$PROJECT_DIR$/development/js/app-compiled.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app-compiled.js.map" afterPath="$PROJECT_DIR$/development/js/app-compiled.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/development/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-checkbox-radio-switch.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap-checkbox-radio-switch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap-notify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-select.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap-select.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/chartist.min.js" afterPath="$PROJECT_DIR$/development/js/lib/chartist.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/development/js/controllers/mainCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js" afterPath="$PROJECT_DIR$/development/js/controllers/unitCtrl-compiled.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js.map" afterPath="$PROJECT_DIR$/development/js/controllers/unitCtrl-compiled.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/unitCtrl.js" afterPath="$PROJECT_DIR$/development/js/controllers/unitCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/demo.js" afterPath="$PROJECT_DIR$/development/js/lib/demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/development/js/lib/jquery-1.10.2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/light-bootstrap-dashboard.js" afterPath="$PROJECT_DIR$/development/js/lib/light-bootstrap-dashboard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/services/websocketService.js" afterPath="$PROJECT_DIR$/development/js/services/websocketService.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/unitRoutes-compiled.js" afterPath="$PROJECT_DIR$/server/routes/unitRoutes-compiled.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/unitRoutes-compiled.js.map" afterPath="$PROJECT_DIR$/server/routes/unitRoutes-compiled.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/unitRoutes.js" afterPath="$PROJECT_DIR$/server/routes/unitRoutes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/dashboard.html" afterPath="$PROJECT_DIR$/development/partials/dashboard.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/icons.html" afterPath="$PROJECT_DIR$/development/partials/icons.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/maps.html" afterPath="$PROJECT_DIR$/development/partials/maps.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/notifications.html" afterPath="$PROJECT_DIR$/development/partials/notifications.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/table.html" afterPath="$PROJECT_DIR$/development/partials/table.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/template.html" afterPath="$PROJECT_DIR$/development/partials/template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/typography.html" afterPath="$PROJECT_DIR$/development/partials/typography.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/upgrade.html" afterPath="$PROJECT_DIR$/development/partials/upgrade.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/user.html" afterPath="$PROJECT_DIR$/development/partials/user.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/animate.min.css" afterPath="$PROJECT_DIR$/development/styles/css/animate.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/development/styles/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/demo.css" afterPath="$PROJECT_DIR$/development/styles/css/demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/development/styles/css/light-bootstrap-dashboard.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/main.css" afterPath="$PROJECT_DIR$/development/styles/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/development/styles/css/pe-icon-7-stroke.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.eot" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.ttf" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.woff" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/development/styles/light-bootstrap-dashboard.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_alerts.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_alerts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_cards.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_cards.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_chartist.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_chartist.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_checkbox-radio-switch.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_checkbox-radio-switch.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_dropdown.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_dropdown.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_footers.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_footers.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_inputs.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_inputs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_misc.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_misc.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_mixins.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_navbars.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_navbars.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_responsive.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_responsive.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_sidebar-and-main-panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_tables.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_typography.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_typography.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_variables.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_cards.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_cards.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_chartist.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_icons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_inputs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_labels.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_labels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_morphing-buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_morphing-buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_navbars.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_social-buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_social-buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_tabs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_transparency.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_vendor-prefixes.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/light-bootstrap-dashboard.scss" afterPath="$PROJECT_DIR$/development/styles/sass/light-bootstrap-dashboard.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroupProject.iws" />
@@ -114,21 +116,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+        <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state relative-caret-position="405">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,7 +157,7 @@
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+        <entry file="file://$PROJECT_DIR$/development/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -155,17 +167,25 @@
         </entry>
       </file>
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/development/partials/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-              <folding />
+              <folding>
+                <marker date="1461096644000" expanded="true" signature="1252:20869" placeholder="..." />
+                <marker date="1461096644000" expanded="true" signature="1593:3523" placeholder="..." />
+                <marker date="1461096644000" expanded="true" signature="1799:3508" placeholder="..." />
+                <marker date="1461096644000" expanded="true" signature="3300:3490" placeholder="..." />
+                <marker date="1461096644000" expanded="true" signature="7126:8354" placeholder="..." />
+                <marker date="1461096644000" expanded="true" signature="8398:9598" placeholder="..." />
+                <marker date="1461096644000" expanded="true" signature="21814:22182" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="websocketService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/services/websocketService.js">
+        <entry file="file://$PROJECT_DIR$/development/js/services/websocketService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="33" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -175,7 +195,7 @@
         </entry>
       </file>
       <file leaf-file-name="mainCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/mainCtrl.js">
+        <entry file="file://$PROJECT_DIR$/development/js/controllers/mainCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
@@ -185,10 +205,10 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -211,8 +231,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/mainCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/websocketService.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -282,7 +302,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroupProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,7 +348,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="javascript.nodejs.core.library.configured.version" value="5.5.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/babel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../meteor-test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
@@ -305,11 +357,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/js/controllers" />
-      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/server/routes" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/development/js/lib" />
+      <recent name="$PROJECT_DIR$/development" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -489,7 +541,7 @@
       <updated>1460731803100</updated>
       <workItem from="1460731812371" duration="1841000" />
       <workItem from="1460992070092" duration="3843000" />
-      <workItem from="1460998960052" duration="12432000" />
+      <workItem from="1460998960052" duration="13884000" />
     </task>
     <task id="LOCAL-00001" summary="fleshing out file structure">
       <created>1460994338154</created>
@@ -523,7 +575,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18116000" />
+    <option name="totallyTimeSpent" value="19568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-66" width="1920" height="1080" extended-state="0" />
@@ -571,7 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
@@ -579,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -587,7 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/development/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
@@ -595,7 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ActiveUnitsSchema.js">
+    <entry file="file://$PROJECT_DIR$/server/routes/ActiveUnitsSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
@@ -603,7 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/unitRoutes.js">
+    <entry file="file://$PROJECT_DIR$/server/routes/unitRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -634,7 +686,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/unitCtrl.js">
+    <entry file="file://$PROJECT_DIR$/development/js/controllers/unitCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -650,7 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/unitRoutes.js">
+    <entry file="file://$PROJECT_DIR$/server/routes/unitRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -666,30 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/mainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/websocketService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gpio-ws.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -698,15 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActiveUnitsSchema.js">
+    <entry file="file://$PROJECT_DIR$/server/routes/ActiveUnitsSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -714,15 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/development/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -730,10 +742,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/development/js/controllers/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development/js/services/websocketService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development/partials/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <marker date="1461096644000" expanded="true" signature="1252:20869" placeholder="..." />
+            <marker date="1461096644000" expanded="true" signature="1593:3523" placeholder="..." />
+            <marker date="1461096644000" expanded="true" signature="1799:3508" placeholder="..." />
+            <marker date="1461096644000" expanded="true" signature="3300:3490" placeholder="..." />
+            <marker date="1461096644000" expanded="true" signature="7126:8354" placeholder="..." />
+            <marker date="1461096644000" expanded="true" signature="8398:9598" placeholder="..." />
+            <marker date="1461096644000" expanded="true" signature="21814:22182" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
