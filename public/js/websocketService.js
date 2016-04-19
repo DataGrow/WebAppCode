@@ -4,7 +4,7 @@ angular.module('DataGrow').service('websocketService', function( $http, $q ) {
 
     console.log("Hello, World!");
 
-    setInterval(function() {
+    this.readyState = setInterval(function() {
         console.log(ws.readyState)
     }, 5000);
 
