@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,9 +119,9 @@
         <option value="$PROJECT_DIR$/ActiveUnitsSchema.js" />
         <option value="$PROJECT_DIR$/public/js/websocketService.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/public/views/dashboard.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/views/dashboard.html" />
       </list>
     </option>
   </component>
@@ -121,8 +131,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="-92" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-66" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -180,35 +190,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="extraneous" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,9 +230,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ActiveUnitsSchema.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/server.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/dashboard.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -258,8 +239,40 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/views/dashboard.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/animate.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/demo.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/light-bootstrap-dashboard.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/gulpfile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_alerts.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_buttons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_cards.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_chartist.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_checkbox-radio-switch.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_dropdown.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_footers.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_inputs.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_misc.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_mixins.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_navbars.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_responsive.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_sidebar-and-main-panel.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_tables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_typography.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/_variables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_buttons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_cards.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_chartist.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_icons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_inputs.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_labels.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_morphing-buttons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_navbars.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_social-buttons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_tabs.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_transparency.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/lbd/mixins/_vendor-prefixes.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sass/light-bootstrap-dashboard.scss</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -415,7 +428,7 @@
       <updated>1460731803100</updated>
       <workItem from="1460731812371" duration="1841000" />
       <workItem from="1460992070092" duration="3843000" />
-      <workItem from="1460998960052" duration="7417000" />
+      <workItem from="1460998960052" duration="7811000" />
     </task>
     <task id="LOCAL-00001" summary="fleshing out file structure">
       <created>1460994338154</created>
@@ -449,19 +462,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13101000" />
+    <option name="totallyTimeSpent" value="13495000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-92" width="1920" height="1080" extended-state="0" />
+    <frame x="-1920" y="-66" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16719915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1369863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13663366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09371672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13168317" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -591,14 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -623,10 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -639,18 +644,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
