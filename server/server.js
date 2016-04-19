@@ -12,7 +12,7 @@ const express = require('express'),
         origin: 'http://localhost:' + port
     },
     mongoose = require('mongoose'),
-    mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/dataponics';
+    mongoUri = 'mongodb://user:dataponics@ds011331.mlab.com:11331/user';
 	  
 
 app.use(cors());
