@@ -1,102 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf4477d-e1ca-4781-8575-2e2bb6d53223" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ActiveUnitsSchema.js" afterPath="$PROJECT_DIR$/server/routes/ActiveUnitsSchema.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/default-avatar.png" afterPath="$PROJECT_DIR$/public/images/default-avatar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-0.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-1.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-2.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-3.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-4.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-5.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-6.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/face-7.jpg" afterPath="$PROJECT_DIR$/public/images/faces/face-7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/faces/tim_vector.jpe" afterPath="$PROJECT_DIR$/public/images/faces/tim_vector.jpe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/favicon.ico" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/loading-bubbles.svg" afterPath="$PROJECT_DIR$/public/images/loading-bubbles.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mask.png" afterPath="$PROJECT_DIR$/public/images/mask.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/new_logo.png" afterPath="$PROJECT_DIR$/public/images/new_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-1.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-2.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-3.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-4.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sidebar-5.jpg" afterPath="$PROJECT_DIR$/public/images/sidebar-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/tim_80x80.png" afterPath="$PROJECT_DIR$/public/images/tim_80x80.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app-compiled.js" afterPath="$PROJECT_DIR$/development/js/app-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app-compiled.js.map" afterPath="$PROJECT_DIR$/development/js/app-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/development/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-checkbox-radio-switch.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap-checkbox-radio-switch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap-notify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-select.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap-select.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/development/js/lib/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/chartist.min.js" afterPath="$PROJECT_DIR$/development/js/lib/chartist.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/development/js/controllers/mainCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js" afterPath="$PROJECT_DIR$/development/js/controllers/unitCtrl-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js.map" afterPath="$PROJECT_DIR$/development/js/controllers/unitCtrl-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/unitCtrl.js" afterPath="$PROJECT_DIR$/development/js/controllers/unitCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/demo.js" afterPath="$PROJECT_DIR$/development/js/lib/demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/development/js/lib/jquery-1.10.2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/light-bootstrap-dashboard.js" afterPath="$PROJECT_DIR$/development/js/lib/light-bootstrap-dashboard.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/services/websocketService.js" afterPath="$PROJECT_DIR$/development/js/services/websocketService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/unitRoutes-compiled.js" afterPath="$PROJECT_DIR$/server/routes/unitRoutes-compiled.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/unitRoutes-compiled.js.map" afterPath="$PROJECT_DIR$/server/routes/unitRoutes-compiled.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/unitRoutes.js" afterPath="$PROJECT_DIR$/server/routes/unitRoutes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/dashboard.html" afterPath="$PROJECT_DIR$/development/partials/dashboard.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/icons.html" afterPath="$PROJECT_DIR$/development/partials/icons.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/maps.html" afterPath="$PROJECT_DIR$/development/partials/maps.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/notifications.html" afterPath="$PROJECT_DIR$/development/partials/notifications.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/table.html" afterPath="$PROJECT_DIR$/development/partials/table.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/template.html" afterPath="$PROJECT_DIR$/development/partials/template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/typography.html" afterPath="$PROJECT_DIR$/development/partials/typography.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/upgrade.html" afterPath="$PROJECT_DIR$/development/partials/upgrade.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/user.html" afterPath="$PROJECT_DIR$/development/partials/user.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/animate.min.css" afterPath="$PROJECT_DIR$/development/styles/css/animate.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/development/styles/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/demo.css" afterPath="$PROJECT_DIR$/development/styles/css/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/development/styles/css/light-bootstrap-dashboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/main.css" afterPath="$PROJECT_DIR$/development/styles/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/css/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/development/styles/css/pe-icon-7-stroke.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.eot" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.ttf" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/fonts/Pe-icon-7-stroke.woff" afterPath="$PROJECT_DIR$/development/styles/fonts/Pe-icon-7-stroke.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/development/styles/light-bootstrap-dashboard.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_alerts.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_alerts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_cards.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_cards.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_chartist.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_chartist.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_checkbox-radio-switch.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_checkbox-radio-switch.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_dropdown.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_dropdown.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_footers.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_footers.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_inputs.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_inputs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_misc.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_misc.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_mixins.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_navbars.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_navbars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_responsive.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_responsive.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_sidebar-and-main-panel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_tables.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_typography.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_typography.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/_variables.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_cards.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_cards.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_chartist.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_icons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_inputs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_labels.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_morphing-buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_morphing-buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_navbars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_social-buttons.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_social-buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_tabs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_transparency.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/lbd/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/development/styles/sass/lbd/mixins/_vendor-prefixes.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/sass/light-bootstrap-dashboard.scss" afterPath="$PROJECT_DIR$/development/styles/sass/light-bootstrap-dashboard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="bdf4477d-e1ca-4781-8575-2e2bb6d53223" name="Default" comment="" />
     <ignored path="GroupProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,18 +34,18 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -194,21 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainCtrl.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/development/js/controllers/mainCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -217,7 +112,6 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -261,7 +155,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="false" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -282,78 +176,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroupProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files" />
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="javascript.nodejs.core.library.configured.version" value="5.5.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../meteor-test" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
-    <property name="JavaScriptPreferStrict" value="false" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -363,171 +197,6 @@
       <recent name="$PROJECT_DIR$/development/js/lib" />
       <recent name="$PROJECT_DIR$/development" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/server.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -541,7 +210,7 @@
       <updated>1460731803100</updated>
       <workItem from="1460731812371" duration="1841000" />
       <workItem from="1460992070092" duration="3843000" />
-      <workItem from="1460998960052" duration="13884000" />
+      <workItem from="1460998960052" duration="14566000" />
     </task>
     <task id="LOCAL-00001" summary="fleshing out file structure">
       <created>1460994338154</created>
@@ -575,19 +244,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19568000" />
+    <option name="totallyTimeSpent" value="20250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-66" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16719915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16719915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.5063898" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13663366" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.5085197" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13663366" sideWeight="0.4914803" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09371672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.49361023" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13168317" sideWeight="0.4914803" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -598,15 +267,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fleshing out file structure" />
-    <MESSAGE value="es6 updates + mongoURI update" />
-    <MESSAGE value="no console log websocket" />
-    <option name="LAST_COMMIT_MESSAGE" value="no console log websocket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,14 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development/js/controllers/mainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/development/js/services/websocketService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -774,10 +426,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -798,10 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/development/js/controllers/mainCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
