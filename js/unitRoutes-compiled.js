@@ -1,6 +1,6 @@
 'use strict';
 
-var unitCtrl = require('./unitCtrl.js');
+var unitCtrl = require('./../js/controllers/unitCtrl.js');
 
 module.exports = function (app) {
 

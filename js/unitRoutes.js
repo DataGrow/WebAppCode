@@ -1,4 +1,4 @@
-let unitCtrl = require('./unitCtrl.js');
+let unitCtrl = require('./controllers/unitCtrl.js');
 
 module.exports = function( app ) {
     

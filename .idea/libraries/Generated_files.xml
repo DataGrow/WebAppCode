@@ -8,9 +8,9 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/src/unitCtrl-compiled.js" />
-      <root url="file://$PROJECT_DIR$/public/js/app-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/unitRoutes-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/unitCtrl-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/app-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/unitRoutes-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>
