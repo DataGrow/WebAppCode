@@ -17,7 +17,7 @@ const express = require('express'),
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('../public'));
 
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
