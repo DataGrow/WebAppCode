@@ -20,9 +20,9 @@
 
     var socket = new WebSocket('ws://localhost:8000/echo');
 
-    setInterval(console.log("Hello"), 4000);
-
-    setInterval(console.log(socket.readyState), 5000);
+    setInterval(function() {
+        console.log(socket.readyState)
+    }, 5000 );
 
 </script>
 </body>
