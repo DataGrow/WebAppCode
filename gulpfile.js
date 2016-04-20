@@ -9,7 +9,7 @@ var path = require('path');
 
 var paths = {
   jsSource: ['./development/**/*.js', '!/public/bundle.js'],
-  sassSource: ['./development/styles/**/*.sass']
+  sassSource: ['./development/styles/**/*.scss']
 };
 
 gulp.task('js', function() {
@@ -26,7 +26,7 @@ gulp.task('sass', function () {
       paths: [ path.join(__dirname, 'styles') ]
     }))
     .pipe(concat('style.css'))
-    .pipe(gulp.dest('./public/styles'));
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('watch', function() {
@@ -66,11 +66,11 @@ gulp.task('default', ['watch', 'js', 'sass']);
 //       stream: true
 //     }))
 // });
- 
+
 // gulp.task('watch', ['browserSync', 'sass'], function () {
 //   gulp.watch('development/styles/**/*.scss', ['sass']);
-//   gulp.watch('development/*.html', browserSync.reload); 
-//   gulp.watch('development/js/**/*.js', browserSync.reload); 
+//   gulp.watch('development/*.html', browserSync.reload);
+//   gulp.watch('development/js/**/*.js', browserSync.reload);
 // });
 
 // gulp.task('useref', function(){
@@ -100,7 +100,7 @@ gulp.task('default', ['watch', 'js', 'sass']);
 // // })
 
 // gulp.task('build', function (callback) {
-//   runSequence('clean:public', 
+//   runSequence('clean:public',
 //     ['sass', 'useref', 'fonts'],
 //     callback
 //   )
@@ -111,5 +111,3 @@ gulp.task('default', ['watch', 'js', 'sass']);
 //     callback
 //   )
 // });
-
-
