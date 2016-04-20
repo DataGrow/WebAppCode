@@ -1,4 +1,4 @@
-angular.module('DataGrow', [])
+angular.module('DataGrow')
   .factory('d3Service', ['$document', '$q', '$rootScope', function($document, $q, $rootScope) {
     var d = $q.defer();
     function onScriptLoad() {
