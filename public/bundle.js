@@ -5,7 +5,11 @@ angular.module('DataGrow', ['ui.router']);
 //# sourceMappingURL=app-compiled.js.map
 angular.module('DataGrow', ['ui.router', 'd3'])
 
+<<<<<<< HEAD
 	.config( ["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider ) {
+=======
+	.config( ["$stateProvider", "$urlRouterProvider", function ($stateProvider,$urlRouterProvider ) {
+>>>>>>> master
 
 
     $urlRouterProvider.otherwise('/');
@@ -117,6 +121,17 @@ angular.module(' myAppName ')
         });
       }};
     }]);
+<<<<<<< HEAD
+=======
+angular.module('DataGrow').controller('mainCtrl', ["$scope", "websocketService", function( $scope , websocketService) {
+
+    
+}]);
+"use strict";
+
+//# sourceMappingURL=unitCtrl-compiled.js.map
+
+>>>>>>> master
 !function ($) {
 
  /* CHECKBOX PUBLIC CLASS DEFINITION
@@ -11582,6 +11597,7 @@ function debounce(func, wait, immediate) {
 	};
 };
 
+<<<<<<< HEAD
 angular.module('DataGrow').controller('mainCtrl', ["$scope", "websocketService", function( $scope , websocketService) {
 
     
@@ -11590,6 +11606,8 @@ angular.module('DataGrow').controller('mainCtrl', ["$scope", "websocketService",
 
 //# sourceMappingURL=unitCtrl-compiled.js.map
 
+=======
+>>>>>>> master
 angular.module('d3', [])
   .factory('d3Service', ['$document', '$q', '$rootScope', function($document, $q, $rootScope) {
     var d = $q.defer();
