@@ -8,16 +8,37 @@ angular.module('DataGrow', ['ui.router'])
 	.config( ["$stateProvider", "$urlRouterProvider", function ($stateProvider,$urlRouterProvider ) {
 
 
-    $urlRouterProvider.otherwise('/dashboard/home');
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
-        .state(' Dashboard ', {
-            url: `/dashboard/home`,
-            templateUrl: `../views/dashboard.html`,
-            controller: 'mainCtrl'
+				.state('landing', {
+						url: `/`,
+						templateUrl: `../partials/landing.html`,
+						controller: 'landingCtrl'
+				})
+        .state('active-units', {
+            url: `/units/active`,
+            templateUrl: `../partials/active-units.html`,
+            controller: 'activeUnitsCtrl'
         })
+				.state('active-unit-info', {
+						url: `/unit/:unitId`,
+						templateUrl: `../partials/active-unit-info.html`,
+						controller: 'activeUnitInfoCtrl'
+				})
+				.state('archived-units', {
+            url: `/units/archived`,
+            templateUrl: `../partials/archived-units.html`,
+            controller: 'archivedUnitsCtrl'
+        })
+				.state('archived-unit-info', {
+						url: `/unit/archive/:unitId`,
+						templateUrl: `../partials/archived-unit-info.html`,
+						controller: 'archivedUnitInfoCtrl'
+				})
 
     }]);
+
 angular.module('DataGrow').controller('mainCtrl', ["$scope", "websocketService", function( $scope , websocketService) {
 
     
