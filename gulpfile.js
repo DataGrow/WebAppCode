@@ -9,7 +9,7 @@ var path = require('path');
 
 var paths = {
   jsSource: ['./development/**/*.js', '!/public/bundle.js'],
-  sassSource: ['./development/styles/**/*.sass']
+  sassSource: ['./development/styles/**/*.scss']
 };
 
 gulp.task('js', function() {
@@ -26,7 +26,7 @@ gulp.task('sass', function () {
       paths: [ path.join(__dirname, 'styles') ]
     }))
     .pipe(concat('style.css'))
-    .pipe(gulp.dest('./public/styles'));
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('watch', function() {
