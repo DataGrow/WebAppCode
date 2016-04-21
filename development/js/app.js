@@ -1,6 +1,9 @@
+import angular from 'angular';
+import uiRouter from 'angular-ui-router';
+
 angular.module('DataGrow', ['ui.router', 'd3'])
 
-	.config( function ($stateProvider,$urlRouterProvider ) {
+	.config( function ($stateProvider, $urlRouterProvider ) {
 
 
     $urlRouterProvider.otherwise('/');

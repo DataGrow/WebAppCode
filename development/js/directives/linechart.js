@@ -1,4 +1,4 @@
-angular.module(' DataGrow ')
+angular.module('DataGrow')
   .directive('simpleLineChart', ['d3Service', function(d3Service) {
     return {
       restrict: 'EA',
