@@ -1,3 +1,5 @@
-angular.module('dataGrow').controller('landingCtrl', function() {
-    
-});
+angular.module('dataGrow').controller('landingCtrl', ['$scope', function($scope) {
+
+
+
+}]);
