@@ -12,23 +12,23 @@ angular.module('dataGrow', ['ui.router'])
 				})
 		        .state('active-units', {
 		            url: '/units/active',
-		            templateUrl: '../partials/active-units.html',
-		            controller: 'activeUnitsCtrl'
+		            templateUrl: './development/partials/active-units.html',
+		            controller: 'landingCtrl'
 		        })
 						.state('active-unit-info', {
 								url: '/unit/:unitId',
-								templateUrl: '../partials/active-unit-info.html',
-								controller: 'activeUnitInfoCtrl'
+								templateUrl: './development/partials/active-unit-info.html',
+								controller: 'landingCtrl'
 						})
 						.state('archived-units', {
 		            url: '/units/archived',
-		            templateUrl: '../partials/archived-units.html',
-		            controller: 'archivedUnitsCtrl'
+		            templateUrl: './development/partials/archived-units.html',
+		            controller: 'landingCtrl'
 		        })
 						.state('archived-unit-info', {
 								url: '/unit/archive/:unitId',
-								templateUrl: '../partials/archived-unit-info.html',
-								controller: 'archivedUnitInfoCtrl'
+								templateUrl: './development/partials/archived-unit-info.html',
+								controller: 'landingCtrl'
 						})
 
     });
