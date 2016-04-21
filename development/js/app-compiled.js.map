@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js"],"names":[],"mappings":";;AAAA,QAAQ,MAAR,CAAe,UAAf,EAA2B,CAAC,WAAD,CAA3B","file":"app-compiled.js","sourcesContent":["angular.module('DataGrow', ['ui.router']);"]}
