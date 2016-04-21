@@ -39,7 +39,7 @@ angular.module('DataGrow', ['ui.router', 'd3'])
 
     }]);
 
-angular.module(' DataGrow ')
+angular.module('DataGrow')
   .directive('simpleLineChart', ['d3Service', function(d3Service) {
     return {
       restrict: 'EA',
@@ -125,7 +125,7 @@ angular.module('DataGrow').controller('mainCtrl', ["$scope", "websocketService",
 
 //# sourceMappingURL=unitCtrl-compiled.js.map
 
-angular.module(' DataGrow ')
+angular.module('DataGrow')
   .directive('simpleLineChart', ['d3Service', function(d3Service) {
     return {
       restrict: 'EA',
@@ -203,48 +203,6 @@ angular.module(' DataGrow ')
         });
       }};
     }]);
-angular.module('DataGrow')
-  .factory('d3Service', ['$document', '$q', '$rootScope', function($document, $q, $rootScope) {
-    var d = $q.defer();
-    function onScriptLoad() {
-      // Load client in the browser
-      $rootScope.$apply(function() { d.resolve(window.d3); });
-    }
-    // Create a script tag with d3 as the source
-    // and call our onScriptLoad callback when it
-    // has been loaded
-    var scriptTag = $document[0].createElement('script');
-    scriptTag.type = 'text/javascript';
-    scriptTag.async = true;
-    scriptTag.src = 'bower_components/d3/d3.js';
-    scriptTag.onreadystatechange = function () {
-    if (this.readyState === 'complete') { onScriptLoad(); }
-  };
-  scriptTag.onload = onScriptLoad;
-
-  var s = $document[0].getElementsByTagName('body')[0];
-  s.appendChild(scriptTag);
-
-  return {
-    d3: function() { return d.promise; }
-  };
-}]);
-
-angular.module('DataGrow').service('websocketService', ["$http", "$q", function( $http, $q ) {
-
-    let ws = new WebSocket('ws://localhost:8000');
-
-    ws.onopen = function() {
-        ws.send("Hello, World!");
-        alert("Message is sent...")
-    };
-
-    ws.onmessage = function (evt) {
-        var received = evt.data;
-        alert("received message: " + received);
-    }
-
-}]);
 !function ($) {
 
  /* CHECKBOX PUBLIC CLASS DEFINITION
@@ -11709,3 +11667,46 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+angular.module('DataGrow')
+  .factory('d3Service', ['$document', '$q', '$rootScope', function($document, $q, $rootScope) {
+    var d = $q.defer();
+    function onScriptLoad() {
+      // Load client in the browser
+      $rootScope.$apply(function() { d.resolve(window.d3); });
+    }
+    // Create a script tag with d3 as the source
+    // and call our onScriptLoad callback when it
+    // has been loaded
+    var scriptTag = $document[0].createElement('script');
+    scriptTag.type = 'text/javascript';
+    scriptTag.async = true;
+    scriptTag.src = 'bower_components/d3/d3.js';
+    scriptTag.onreadystatechange = function () {
+    if (this.readyState === 'complete') { onScriptLoad(); }
+  };
+  scriptTag.onload = onScriptLoad;
+
+  var s = $document[0].getElementsByTagName('body')[0];
+  s.appendChild(scriptTag);
+
+  return {
+    d3: function() { return d.promise; }
+  };
+}]);
+
+angular.module('DataGrow').service('websocketService', ["$http", "$q", function( $http, $q ) {
+
+    let ws = new WebSocket('ws://localhost:8000');
+
+    ws.onopen = function() {
+        ws.send("Hello, World!");
+        alert("Message is sent...")
+    };
+
+    ws.onmessage = function (evt) {
+        var received = evt.data;
+        alert("received message: " + received);
+    }
+
+}]);

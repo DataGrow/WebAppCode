@@ -5,6 +5,7 @@ var plumber = require('gulp-plumber');
 var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
 var sass = require('gulp-sass');
+var scss = require('gulp-scss');
 var path = require('path');
 
 var paths = {
