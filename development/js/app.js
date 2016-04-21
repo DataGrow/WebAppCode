@@ -1,7 +1,4 @@
-import angular from 'angular';
-import uiRouter from 'angular-ui-router';
-
-angular.module('DataGrow', ['ui.router', 'd3'])
+angular.module('DataGrow', ['ui.router'])
 
 	.config( function ($stateProvider, $urlRouterProvider ) {
 
@@ -11,7 +8,7 @@ angular.module('DataGrow', ['ui.router', 'd3'])
     $stateProvider
 				.state('landing', {
 						url: `/`,
-						templateUrl: `../partials/landing.html`,
+						templateUrl: `../partials/dashboard.html`,
 						controller: 'landingCtrl'
 				})
         .state('active-units', {

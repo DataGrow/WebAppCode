@@ -7,9 +7,10 @@ var watch = require('gulp-watch');
 var sass = require('gulp-sass');
 var scss = require('gulp-scss');
 var path = require('path');
+var sourcemaps = require('gulp-sourcemaps');
 
 var paths = {
-  jsSource: ['./development/**/*.js', '!/public/bundle.js'],
+  jsSource: ['./development/js/app.js', './development/js/lib/bootstrap-checkbox-radio-switch.js', './development/js/lib/chartist.min.js',  './development/js/lib/light-bootstrap-dashboard.js', './development/js/controllers/*.js', './development/js/services/*.js', './development/**/*.js', '!/public/bundle.js'],
   sassSource: ['./development/styles/**/*.scss']
 };
 
@@ -17,6 +18,7 @@ gulp.task('js', function() {
   return gulp.src(paths.jsSource)
   .pipe(plumber())
   .pipe(concat('bundle.js'))
+  .pipe(sourcemaps.write())
   .pipe(annotate())
   .pipe(gulp.dest('./public'));
 });
@@ -38,77 +40,3 @@ gulp.task('watch', function() {
 
 gulp.task('default', ['watch', 'js', 'sass']);
 
-// var gulp = require('gulp');
-// var connect = require('gulp-connect');
-// var sass = require('gulp-sass');
-// var browserSync = require('browser-sync').create();
-// var useref = require('gulp-useref');
-// var uglify = require('gulp-uglify');
-// var gulpIf = require('gulp-if');
-// var runSequence = require('run-sequence');
-// var cssnano = require('gulp-cssnano');
-// var imagemin = require('gulp-imagemin');
-// var cache = require('gulp-cache');
-// var del = require('del');
-
-// gulp.task('browserSync', function() {
-//   browserSync.init({
-//     server: {
-//       baseDir: 'development'
-//     },
-//   })
-// });
-
-// gulp.task('sass', function () {
-//   return gulp.src('development/styles/**/*.scss')
-//     .pipe(sass())
-//     .pipe(gulp.dest('public/css'))
-//     .pipe(browserSync.reload({
-//       stream: true
-//     }))
-// });
-
-// gulp.task('watch', ['browserSync', 'sass'], function () {
-//   gulp.watch('development/styles/**/*.scss', ['sass']);
-//   gulp.watch('development/*.html', browserSync.reload);
-//   gulp.watch('development/js/**/*.js', browserSync.reload);
-// });
-
-// gulp.task('useref', function(){
-//   return gulp.src('development/*.html')
-//     .pipe(useref())
-//     .pipe(gulpIf('*.js', uglify()))
-//     .pipe(gulpIf('*.css', cssnano()))
-//     .pipe(gulp.dest('public'))
-// });
-
-// gulp.task('images', function(){
-//   return gulp.src('development/images/**/*.+(png|jpg|gif|svg)')
-//   .pipe(cache(imagemin({
-//       interlaced: true
-//     })))
-//   .pipe(gulp.dest('public/images'))
-// });
-
-
-// gulp.task('fonts', function() {
-//   return gulp.src('development/fonts/**/*')
-//   .pipe(gulp.dest('public/fonts'))
-// });
-
-// // gulp.task('clean:public', function() {
-// //   return del.sync('public');
-// // })
-
-// gulp.task('build', function (callback) {
-//   runSequence('clean:public',
-//     ['sass', 'useref', 'fonts'],
-//     callback
-//   )
-// });
-
-// gulp.task('default', function (callback) {
-//   runSequence(['sass','browserSync', 'watch'],
-//     callback
-//   )
-// });
