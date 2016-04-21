@@ -39,7 +39,7 @@ angular.module('DataGrow', ['ui.router', 'd3'])
 
     }]);
 
-angular.module(' DataGrow ')
+angular.module('DataGrow')
   .directive('simpleLineChart', ['d3Service', function(d3Service) {
     return {
       restrict: 'EA',
@@ -119,13 +119,13 @@ angular.module(' DataGrow ')
     }]);
 angular.module('DataGrow').controller('mainCtrl', ["$scope", "websocketService", function( $scope , websocketService) {
 
-    
+
 }]);
 "use strict";
 
 //# sourceMappingURL=unitCtrl-compiled.js.map
 
-angular.module(' DataGrow ')
+angular.module('DataGrow')
   .directive('simpleLineChart', ['d3Service', function(d3Service) {
     return {
       restrict: 'EA',
@@ -203,48 +203,7 @@ angular.module(' DataGrow ')
         });
       }};
     }]);
-angular.module('DataGrow')
-  .factory('d3Service', ['$document', '$q', '$rootScope', function($document, $q, $rootScope) {
-    var d = $q.defer();
-    function onScriptLoad() {
-      // Load client in the browser
-      $rootScope.$apply(function() { d.resolve(window.d3); });
-    }
-    // Create a script tag with d3 as the source
-    // and call our onScriptLoad callback when it
-    // has been loaded
-    var scriptTag = $document[0].createElement('script');
-    scriptTag.type = 'text/javascript';
-    scriptTag.async = true;
-    scriptTag.src = 'bower_components/d3/d3.js';
-    scriptTag.onreadystatechange = function () {
-    if (this.readyState === 'complete') { onScriptLoad(); }
-  };
-  scriptTag.onload = onScriptLoad;
 
-  var s = $document[0].getElementsByTagName('body')[0];
-  s.appendChild(scriptTag);
-
-  return {
-    d3: function() { return d.promise; }
-  };
-}]);
-
-angular.module('DataGrow').service('websocketService', ["$http", "$q", function( $http, $q ) {
-
-    let ws = new WebSocket('ws://localhost:8000');
-
-    ws.onopen = function() {
-        ws.send("Hello, World!");
-        alert("Message is sent...")
-    };
-
-    ws.onmessage = function (evt) {
-        var received = evt.data;
-        alert("received message: " + received);
-    }
-
-}]);
 !function ($) {
 
  /* CHECKBOX PUBLIC CLASS DEFINITION
@@ -255,50 +214,50 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
   }
 
   Checkbox.prototype = {
-    
+
     constructor: Checkbox
-    
-  , init: function (element, options) {      
+
+  , init: function (element, options) {
     var $el = this.$element = $(element)
-    
-    this.options = $.extend({}, $.fn.checkbox.defaults, options);      
-    $el.before(this.options.template);    
-    this.setState(); 
-  }  
-   
-  , setState: function () {    
+
+    this.options = $.extend({}, $.fn.checkbox.defaults, options);
+    $el.before(this.options.template);
+    this.setState();
+  }
+
+  , setState: function () {
       var $el = this.$element
         , $parent = $el.closest('.checkbox');
-        
-        $el.prop('disabled') && $parent.addClass('disabled');   
+
+        $el.prop('disabled') && $parent.addClass('disabled');
         $el.prop('checked') && $parent.addClass('checked');
-    }  
-    
-  , toggle: function () {    
+    }
+
+  , toggle: function () {
       var ch = 'checked'
         , $el = this.$element
         , $parent = $el.closest('.checkbox')
         , checked = $el.prop(ch)
         , e = $.Event('toggle')
-      
+
       if ($el.prop('disabled') == false) {
         $parent.toggleClass(ch) && checked ? $el.removeAttr(ch) : $el.prop(ch, ch);
-        $el.trigger(e).trigger('change'); 
+        $el.trigger(e).trigger('change');
       }
-    }  
-    
-  , setCheck: function (option) {    
+    }
+
+  , setCheck: function (option) {
       var d = 'disabled'
         , ch = 'checked'
         , $el = this.$element
         , $parent = $el.closest('.checkbox')
         , checkAction = option == 'check' ? true : false
         , e = $.Event(option)
-      
+
       $parent[checkAction ? 'addClass' : 'removeClass' ](ch) && checkAction ? $el.prop(ch, ch) : $el.removeAttr(ch);
-      $el.trigger(e).trigger('change');       
-    }  
-      
+      $el.trigger(e).trigger('change');
+    }
+
   }
 
 
@@ -315,10 +274,10 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
       if (!data) $this.data('checkbox', (data = new Checkbox(this, options)));
       if (option == 'toggle') data.toggle()
       if (option == 'check' || option == 'uncheck') data.setCheck(option)
-      else if (option) data.setState(); 
+      else if (option) data.setState();
     });
   }
-  
+
   $.fn.checkbox.defaults = {
     template: '<span class="icons"><span class="first-icon fa fa-square-o"></span><span class="second-icon fa fa-check-square-o"></span></span>'
   }
@@ -338,13 +297,13 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
 
   $(document).on('click.checkbox.data-api', '[data-toggle^=checkbox], .checkbox', function (e) {
     var $checkbox = $(e.target);
-    if (e.target.tagName != "A") {      
+    if (e.target.tagName != "A") {
       e && e.preventDefault() && e.stopPropagation();
       if (!$checkbox.hasClass('checkbox')) $checkbox = $checkbox.closest('.checkbox');
       $checkbox.find(':checkbox').checkbox('toggle');
     }
   });
-  
+
   $(function () {
     $('[data-toggle="checkbox"]').each(function () {
       var $checkbox = $(this);
@@ -370,55 +329,55 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
   }
 
   Radio.prototype = {
-  
+
     constructor: Radio
-    
-  , init: function (element, options) {      
+
+  , init: function (element, options) {
       var $el = this.$element = $(element)
-      
-      this.options = $.extend({}, $.fn.radio.defaults, options);      
-      $el.before(this.options.template);    
+
+      this.options = $.extend({}, $.fn.radio.defaults, options);
+      $el.before(this.options.template);
       this.setState();
-    }   
-    
-  , setState: function () {    
+    }
+
+  , setState: function () {
       var $el = this.$element
         , $parent = $el.closest('.radio');
-        
-        $el.prop('disabled') && $parent.addClass('disabled');   
+
+        $el.prop('disabled') && $parent.addClass('disabled');
         $el.prop('checked') && $parent.addClass('checked');
-    } 
-    
-  , toggle: function () {    
+    }
+
+  , toggle: function () {
       var d = 'disabled'
         , ch = 'checked'
         , $el = this.$element
         , checked = $el.prop(ch)
-        , $parent = $el.closest('.radio')      
+        , $parent = $el.closest('.radio')
         , $parentWrap = $el.closest('form').length ? $el.closest('form') : $el.closest('body')
         , $elemGroup = $parentWrap.find(':radio[name="' + $el.attr('name') + '"]')
         , e = $.Event('toggle')
-      
+
         if ($el.prop(d) == false) {
             $elemGroup.not($el).each(function () {
               var $el = $(this)
                 , $parent = $(this).closest('.radio');
-                
+
                 if ($el.prop(d) == false) {
                   $parent.removeClass(ch) && $el.removeAttr(ch).trigger('change');
-                } 
+                }
             });
-            
+
             if (checked == false) $parent.addClass(ch) && $el.prop(ch, true);
             $el.trigger(e);
-          
+
             if (checked !== $el.prop(ch)) {
-                $el.trigger('change'); 
+                $el.trigger('change');
             }
-        }               
-    } 
-     
-  , setCheck: function (option) {    
+        }
+    }
+
+  , setCheck: function (option) {
       var ch = 'checked'
         , $el = this.$element
         , $parent = $el.closest('.radio')
@@ -427,22 +386,22 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
         , $parentWrap = $el.closest('form').length ? $el.closest('form') : $el.closest('body')
         , $elemGroup = $parentWrap.find(':radio[name="' + $el['attr']('name') + '"]')
         , e = $.Event(option)
-        
+
       $elemGroup.not($el).each(function () {
         var $el = $(this)
           , $parent = $(this).closest('.radio');
-          
+
           $parent.removeClass(ch) && $el.removeAttr(ch);
       });
-            
+
       $parent[checkAction ? 'addClass' : 'removeClass'](ch) && checkAction ? $el.prop(ch, ch) : $el.removeAttr(ch);
-      $el.trigger(e);  
-          
+      $el.trigger(e);
+
       if (checked !== $el.prop(ch)) {
-        $el.trigger('change'); 
+        $el.trigger('change');
       }
-    }  
-     
+    }
+
   }
 
 
@@ -459,10 +418,10 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
       if (!data) $this.data('radio', (data = new Radio(this, options)));
       if (option == 'toggle') data.toggle()
       if (option == 'check' || option == 'uncheck') data.setCheck(option)
-      else if (option) data.setState(); 
+      else if (option) data.setState();
     });
   }
-  
+
   $.fn.radio.defaults = {
     template: '<span class="icons"><span class="first-icon fa fa-circle-o"></span><span class="second-icon fa fa-dot-circle-o"></span></span>'
   }
@@ -486,7 +445,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
     if (!$radio.hasClass('radio')) $radio = $radio.closest('.radio');
     $radio.find(':radio').radio('toggle');
   });
-  
+
   $(function () {
     $('[data-toggle="radio"]').each(function () {
       var $radio = $(this);
@@ -749,12 +708,12 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
 
 
 /*
-    
-    
+
+
 
      Creative Tim Modifications
-     
-     Lines: 239, 240 was changed from top: 5px to top: 50% and we added margin-top: -13px. In this way the close button will be aligned vertically 
+
+     Lines: 239, 240 was changed from top: 5px to top: 50% and we added margin-top: -13px. In this way the close button will be aligned vertically
      Line:242 - modified when the icon is set, we add the class "alert-with-icon", so there will be enough space for the icon.
 
 
@@ -885,7 +844,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
 			this.init();
 		}
 	}
-	
+
 	$.extend(Notify.prototype, {
 		init: function () {
 			var self = this;
@@ -965,9 +924,9 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
 			}
 		},
 		setIcon: function () {
-    		
+
     		this.$ele.addClass('alert-with-icon');
-    		
+
 			if (this.settings.icon_type.toLowerCase() === 'class') {
 				this.$ele.find('[data-notify="icon"]').addClass(this.settings.content.icon);
 			} else {
@@ -1227,9 +1186,9 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
             this.clickListener();
             var menuPadding = parseInt(menu.css('padding-top')) + parseInt(menu.css('padding-bottom')) + parseInt(menu.css('border-top-width')) + parseInt(menu.css('border-bottom-width'));
             if (this.options.size == 'auto') {
-                
+
                 // Creative Tim Changes: We changed the regular function made in bootstrap-select with this function so the getSize() will not be triggered one million times per second while you scroll.
-                
+
                 var getSize = debounce(function() {
                      var selectOffset_top_scroll = selectOffset_top - $(window).scrollTop();
                     var windowHeight = $(window).innerHeight();
@@ -1245,13 +1204,13 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                     }
 
                     menu.css({'max-height' : menuHeight + 'px', 'overflow-y' : 'auto', 'min-height' : liHeight * 3 + 'px'});
-                    
+
                 }, 50);
 
                 getSize;
                 $(window).on('scroll', getSize);
                 $(window).on('resize', getSize);
-        
+
                 if (window.MutationObserver) {
                     new MutationObserver(getSize).observe(this.$element.get(0), {
                         childList: true
@@ -1281,7 +1240,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
 
         createDropdown: function() {
             var drop =
-                "<div class='btn-group select'>" +                    
+                "<div class='btn-group select'>" +
                     "<button class='btn dropdown-toggle clearfix' data-toggle='dropdown'>" +
                         "<span class='filter-option'></span>&nbsp;" +
                         "<span class='caret'></span>" +
@@ -1346,12 +1305,12 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                         if ($(this)[0].index != 0) {
                             _liA.push(
                                 '<div class="divider"></div>'+
-                                '<dt>'+label+'</dt>'+ 
+                                '<dt>'+label+'</dt>'+
                                 _this.createA(text, "opt " + optionClass )
                                 );
                         } else {
                             _liA.push(
-                                '<dt>'+label+'</dt>'+ 
+                                '<dt>'+label+'</dt>'+
                                 _this.createA(text, "opt " + optionClass ));
                         }
                     } else {
@@ -1415,27 +1374,27 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 }
             }).toArray();
 
-            //Convert all the values into a comma delimited string    
+            //Convert all the values into a comma delimited string
             var title = selectedItems.join(", ");
 
-            //If this is multi select, and the selectText type is count, the show 1 of 2 selected etc..                    
+            //If this is multi select, and the selectText type is count, the show 1 of 2 selected etc..
             if(_this.multiple && _this.options.selectedTextFormat.indexOf('count') > -1) {
                 var max = _this.options.selectedTextFormat.split(">");
                 if( (max.length>1 && selectedItems.length > max[1]) || (max.length==1 && selectedItems.length>=2)) {
                     title = selectedItems.length +' of ' + this.$element.find('option').length + ' selected';
                 }
-             }  
-            
+             }
+
             //If we dont have a title, then use the default, or if nothing is set at all, use the not selected text
             if(!title) {
-                title = _this.options.title != undefined ? _this.options.title : _this.options.noneSelectedText;    
+                title = _this.options.title != undefined ? _this.options.title : _this.options.noneSelectedText;
             }
-            
+
             this.$element.next('.select').find('.filter-option').html( title );
 	    },
-	    
-        
-        
+
+
+
         setSelected:function(index, selected) {
             if(selected) {
                 this.$newElement.find('li').eq(index).addClass('selected');
@@ -1443,7 +1402,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 this.$newElement.find('li').eq(index).removeClass('selected');
             }
         },
-        
+
         setDisabled:function(index, disabled) {
             if(disabled) {
                 this.$newElement.find('li').eq(index).addClass('disabled');
@@ -1451,7 +1410,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 this.$newElement.find('li').eq(index).removeClass('disabled');
             }
         },
-       
+
         checkDisabled: function() {
             if (this.$element.is(':disabled')) {
                 this.button.addClass('disabled');
@@ -1460,53 +1419,53 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 });
             }
         },
-		
+
 		checkTabIndex: function() {
 			if (this.$element.is('[tabindex]')) {
 				var tabindex = this.$element.attr("tabindex");
 				this.button.attr('tabindex', tabindex);
 			}
 		},
-		
+
 		clickListener: function() {
             var _this = this;
-            
+
             $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
-            
-           
-            
+
+
+
             this.$newElement.on('click', 'li a', function(e){
                 var clickedIndex = $(this).parent().index(),
                     $this = $(this).parent(),
                     $select = $this.parents('.select');
-                
-                
-                //Dont close on multi choice menu    
+
+
+                //Dont close on multi choice menu
                 if(_this.multiple) {
                     e.stopPropagation();
                 }
-                
+
                 e.preventDefault();
-                
+
                 //Dont run if we have been disabled
                 if ($select.prev('select').not(':disabled') && !$(this).parent().hasClass('disabled')){
                     //Deselect all others if not multi select box
                     if (!_this.multiple) {
                         $select.prev('select').find('option').removeAttr('selected');
                         $select.prev('select').find('option').eq(clickedIndex).prop('selected', true).attr('selected', 'selected');
-                    } 
+                    }
                     //Else toggle the one we have chosen if we are multi selet.
                     else {
                         var selected = $select.prev('select').find('option').eq(clickedIndex).prop('selected');
-                        
+
                         if(selected) {
                             $select.prev('select').find('option').eq(clickedIndex).removeAttr('selected');
                         } else {
                             $select.prev('select').find('option').eq(clickedIndex).prop('selected', true).attr('selected', 'selected');
                         }
                     }
-                    
-                    
+
+
                     $select.find('.filter-option').html($this.text());
                     $select.find('button').focus();
 
@@ -1515,7 +1474,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 }
 
             });
-            
+
            this.$newElement.on('click', 'li.disabled a, li dt, li .divider', function(e) {
                 e.preventDefault();
                 e.stopPropagation();
@@ -1527,12 +1486,12 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 _this.render();
             });
         },
-        
+
         val:function(value) {
-            
+
             if(value!=undefined) {
                 this.$element.val( value );
-                
+
                 this.$element.trigger('change');
                 return this.$element;
             } else {
@@ -1550,7 +1509,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
             var $this = $(this),
                 data = $this.data('selectpicker'),
                 options = typeof option == 'object' && option;
-            
+
             if (!data) {
             	$this.data('selectpicker', (data = new Selectpicker(this, options, event)));
             } else {
@@ -1558,7 +1517,7 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
             		data[i]=option[i];
             	}
             }
-            
+
             if (typeof option == 'string') {
                 //Copy the value of option, as once we shift the arguments
                 //it also shifts the value of option.
@@ -1571,12 +1530,12 @@ angular.module('DataGrow').service('websocketService', ["$http", "$q", function(
                 }
             }
         });
-        
+
         if(value!=undefined) {
             return value;
         } else {
             return chain;
-        } 
+        }
     };
 
     $.fn.selectpicker.defaults = {
@@ -1609,12 +1568,12 @@ d.trigger("activate.bs.scrollspy")},b.prototype.clear=function(){a(this.selector
 this.eventEmitter.emit("draw",c.extend({type:"bar",value:g,index:k,meta:c.getMetaData(b,k),series:b,seriesIndex:e,axisX:m,axisY:n,chartRect:o,group:h,element:s},v))}}.bind(this))}.bind(this)),this.eventEmitter.emit("created",{bounds:j.bounds,chartRect:o,axisX:m,axisY:n,svg:this.svg,options:a})}function e(a,b,d,e){c.Bar["super"].constructor.call(this,a,b,f,c.extend({},f,d),e)}var f={axisX:{offset:30,position:"end",labelOffset:{x:0,y:0},showLabel:!0,showGrid:!0,labelInterpolationFnc:c.noop,scaleMinSpace:30,onlyInteger:!1},axisY:{offset:40,position:"start",labelOffset:{x:0,y:0},showLabel:!0,showGrid:!0,labelInterpolationFnc:c.noop,scaleMinSpace:20,onlyInteger:!1},width:void 0,height:void 0,high:void 0,low:void 0,onlyInteger:!1,chartPadding:{top:15,right:15,bottom:5,left:10},seriesBarDistance:15,stackBars:!1,horizontalBars:!1,distributeSeries:!1,reverseData:!1,classNames:{chart:"ct-chart-bar",horizontalBars:"ct-horizontal-bars",label:"ct-label",labelGroup:"ct-labels",series:"ct-series",bar:"ct-bar",grid:"ct-grid",gridGroup:"ct-grids",vertical:"ct-vertical",horizontal:"ct-horizontal",start:"ct-start",end:"ct-end"}};c.Bar=c.Base.extend({constructor:e,createChart:d})}(window,document,a),function(a,b,c){"use strict";function d(a,b,c){var d=b.x>a.x;return d&&"explode"===c||!d&&"implode"===c?"start":d&&"implode"===c||!d&&"explode"===c?"end":"middle"}function e(a){var b,e,f,h,i,j=[],k=a.startAngle,l=c.getDataArray(this.data,a.reverseData);this.svg=c.createSvg(this.container,a.width,a.height,a.donut?a.classNames.chartDonut:a.classNames.chartPie),e=c.createChartRect(this.svg,a,g.padding),f=Math.min(e.width()/2,e.height()/2),i=a.total||l.reduce(function(a,b){return a+b},0),f-=a.donut?a.donutWidth/2:0,h="outside"===a.labelPosition||a.donut?f:"center"===a.labelPosition?0:f/2,h+=a.labelOffset;var m={x:e.x1+e.width()/2,y:e.y2+e.height()/2},n=1===this.data.series.filter(function(a){return a.hasOwnProperty("value")?0!==a.value:0!==a}).length;a.showLabel&&(b=this.svg.elem("g",null,null,!0));for(var o=0;o<this.data.series.length;o++){var p=this.data.series[o];j[o]=this.svg.elem("g",null,null,!0),j[o].attr({"series-name":p.name},c.xmlNs.uri),j[o].addClass([a.classNames.series,p.className||a.classNames.series+"-"+c.alphaNumerate(o)].join(" "));var q=k+l[o]/i*360;q-k===360&&(q-=.01);var r=c.polarToCartesian(m.x,m.y,f,k-(0===o||n?0:.2)),s=c.polarToCartesian(m.x,m.y,f,q),t=new c.Svg.Path(!a.donut).move(s.x,s.y).arc(f,f,0,q-k>180,0,r.x,r.y);a.donut||t.line(m.x,m.y);var u=j[o].elem("path",{d:t.stringify()},a.donut?a.classNames.sliceDonut:a.classNames.slicePie);if(u.attr({value:l[o],meta:c.serialize(p.meta)},c.xmlNs.uri),a.donut&&u.attr({style:"stroke-width: "+ +a.donutWidth+"px"}),this.eventEmitter.emit("draw",{type:"slice",value:l[o],totalDataSum:i,index:o,meta:p.meta,series:p,group:j[o],element:u,path:t.clone(),center:m,radius:f,startAngle:k,endAngle:q}),a.showLabel){var v=c.polarToCartesian(m.x,m.y,h,k+(q-k)/2),w=a.labelInterpolationFnc(this.data.labels?this.data.labels[o]:l[o],o);if(w||0===w){var x=b.elem("text",{dx:v.x,dy:v.y,"text-anchor":d(m,v,a.labelDirection)},a.classNames.label).text(""+w);this.eventEmitter.emit("draw",{type:"label",index:o,group:b,element:x,text:""+w,x:v.x,y:v.y})}}k=q}this.eventEmitter.emit("created",{chartRect:e,svg:this.svg,options:a})}function f(a,b,d,e){c.Pie["super"].constructor.call(this,a,b,g,c.extend({},g,d),e)}var g={width:void 0,height:void 0,chartPadding:5,classNames:{chartPie:"ct-chart-pie",chartDonut:"ct-chart-donut",series:"ct-series",slicePie:"ct-slice-pie",sliceDonut:"ct-slice-donut",label:"ct-label"},startAngle:0,total:void 0,donut:!1,donutWidth:60,showLabel:!0,labelOffset:0,labelPosition:"inside",labelInterpolationFnc:c.noop,labelDirection:"neutral",reverseData:!1};c.Pie=c.Base.extend({constructor:f,createChart:e,determineAnchorPosition:d})}(window,document,a),a});
 //# sourceMappingURL=chartist.min.js.map
 type = ['','info','success','warning','danger'];
-    	
+
 
 demo = {
     initPickColor: function(){
         $('.pick-class-label').click(function(){
-            var new_class = $(this).attr('new-class');  
+            var new_class = $(this).attr('new-class');
             var old_class = $('#display-buttons').attr('data-class');
             var display_div = $('#display-buttons');
             if(display_div.length) {
@@ -1625,9 +1584,9 @@ demo = {
             }
         });
     },
-    
-    initChartist: function(){    
-        
+
+    initChartist: function(){
+
         var dataSales = {
           labels: ['9:00AM', '12:00AM', '3:00PM', '6:00PM', '9:00PM', '12:00PM', '3:00AM', '6:00AM'],
           series: [
@@ -1636,7 +1595,7 @@ demo = {
             [23, 113, 67, 108, 190, 239, 307, 308, 439, 410, 410, 509]
           ]
         };
-        
+
         var optionsSales = {
           lineSmooth: false,
           low: 0,
@@ -1652,7 +1611,7 @@ demo = {
           showLine: false,
           showPoint: false,
         };
-        
+
         var responsiveSales = [
           ['screen and (max-width: 640px)', {
             axisX: {
@@ -1662,10 +1621,10 @@ demo = {
             }
           }]
         ];
-    
+
         Chartist.Line('#chartHours', dataSales, optionsSales, responsiveSales);
-        
-    
+
+
         var data = {
           labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           series: [
@@ -1673,7 +1632,7 @@ demo = {
             [412, 243, 280, 580, 453, 353, 300, 364, 368, 410, 636, 695]
           ]
         };
-        
+
         var options = {
             seriesBarDistance: 10,
             axisX: {
@@ -1681,7 +1640,7 @@ demo = {
             },
             height: "245px"
         };
-        
+
         var responsiveOptions = [
           ['screen and (max-width: 640px)', {
             seriesBarDistance: 5,
@@ -1692,15 +1651,15 @@ demo = {
             }
           }]
         ];
-        
+
         Chartist.Bar('#chartActivity', data, options, responsiveOptions);
-    
+
         var dataPreferences = {
             series: [
                 [25, 30, 20, 25]
             ]
         };
-        
+
         var optionsPreferences = {
             donut: true,
             donutWidth: 40,
@@ -1711,15 +1670,15 @@ demo = {
                 showGrid: false
             }
         };
-    
+
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
-        
+
         Chartist.Pie('#chartPreferences', {
           labels: ['62%','32%','6%'],
           series: [62, 32, 6]
-        });   
+        });
     },
-    
+
     initGoogleMaps: function(){
         var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
         var mapOptions = {
@@ -1727,26 +1686,26 @@ demo = {
           center: myLatlng,
           scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
           styles: [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#b8cb93"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","stylers":[{"visibility":"simplified"}]}]
-    
+
         }
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-        
+
         var marker = new google.maps.Marker({
             position: myLatlng,
             title:"Hello World!"
         });
-        
+
         // To add the marker to the map, call setMap();
         marker.setMap(map);
     },
-    
+
 	showNotification: function(from, align){
     	color = Math.floor((Math.random() * 4) + 1);
-    	
+
     	$.notify({
         	icon: "pe-7s-gift",
         	message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
-        	
+
         },{
             type: type[color],
             timer: 4000,
@@ -1757,7 +1716,7 @@ demo = {
         });
 	}
 
-    
+
 }
 
 
@@ -11560,116 +11519,116 @@ var navbar_initialized = false;
 
 $(document).ready(function(){
     window_width = $(window).width();
-    
+
     // check if there is an image set for the sidebar's background
     lbd.checkSidebarImage();
-    
-    // Init navigation toggle for small screens   
+
+    // Init navigation toggle for small screens
     if(window_width <= 991){
-        lbd.initRightMenu();   
+        lbd.initRightMenu();
     }
-     
-    //  Activate the tooltips   
+
+    //  Activate the tooltips
     $('[rel="tooltip"]').tooltip();
 
-    //      Activate the switches with icons 
+    //      Activate the switches with icons
     if($('.switch').length != 0){
         $('.switch')['bootstrapSwitch']();
-    }  
+    }
     //      Activate regular switches
     if($("[data-toggle='switch']").length != 0){
-         $("[data-toggle='switch']").wrap('<div class="switch" />').parent().bootstrapSwitch();     
+         $("[data-toggle='switch']").wrap('<div class="switch" />').parent().bootstrapSwitch();
     }
-     
+
     $('.form-control').on("focus", function(){
         $(this).parent('.input-group').addClass("input-group-focus");
     }).on("blur", function(){
         $(this).parent(".input-group").removeClass("input-group-focus");
     });
-      
+
 });
 
-// activate collapse right menu when the windows is resized 
+// activate collapse right menu when the windows is resized
 $(window).resize(function(){
     if($(window).width() <= 991){
-        lbd.initRightMenu();   
+        lbd.initRightMenu();
     }
 });
-    
+
 lbd = {
     misc:{
         navbar_menu_visible: 0
     },
-    
+
     checkSidebarImage: function(){
         $sidebar = $('.sidebar');
         image_src = $sidebar.data('image');
-        
+
         if(image_src !== undefined){
             sidebar_container = '<div class="sidebar-background" style="background-image: url(' + image_src + ') "/>'
             $sidebar.append(sidebar_container);
-        }  
+        }
     },
-    initRightMenu: function(){  
+    initRightMenu: function(){
          if(!navbar_initialized){
             $navbar = $('nav').find('.navbar-collapse').first().clone(true);
-            
+
             $sidebar = $('.sidebar');
             sidebar_color = $sidebar.data('color');
-            
+
             $logo = $sidebar.find('.logo').first();
             logo_content = $logo[0].outerHTML;
-                    
+
             ul_content = '';
-             
+
             $navbar.attr('data-color',sidebar_color);
-             
+
             // add the content from the sidebar to the right menu
             content_buff = $sidebar.find('.nav').html();
             ul_content = ul_content + content_buff;
-            
+
             //add the content from the regular header to the right menu
             $navbar.children('ul').each(function(){
                 content_buff = $(this).html();
-                ul_content = ul_content + content_buff;   
+                ul_content = ul_content + content_buff;
             });
-             
+
             ul_content = '<ul class="nav navbar-nav">' + ul_content + '</ul>';
-            
+
             navbar_content = logo_content + ul_content;
-            
+
             $navbar.html(navbar_content);
-             
+
             $('body').append($navbar);
-             
+
             background_image = $sidebar.data('image');
             if(background_image != undefined){
                 $navbar.css('background',"url('" + background_image + "')")
                        .removeAttr('data-nav-image')
-                       .addClass('has-image');                
+                       .addClass('has-image');
             }
-             
-             
+
+
              $toggle = $('.navbar-toggle');
-             
+
              $navbar.find('a').removeClass('btn btn-round btn-default');
              $navbar.find('button').removeClass('btn-round btn-fill btn-info btn-primary btn-success btn-danger btn-warning btn-neutral');
              $navbar.find('button').addClass('btn-simple btn-block');
-            
-             $toggle.click(function (){    
+
+             $toggle.click(function (){
                 if(lbd.misc.navbar_menu_visible == 1) {
-                    $('html').removeClass('nav-open'); 
+                    $('html').removeClass('nav-open');
                     lbd.misc.navbar_menu_visible = 0;
                     $('#bodyClick').remove();
                      setTimeout(function(){
                         $toggle.removeClass('toggled');
                      }, 400);
-                
+
                 } else {
                     setTimeout(function(){
                         $toggle.addClass('toggled');
                     }, 430);
-                    
+
                     div = '<div id="bodyClick"></div>';
                     $(div).appendTo("body").click(function() {
                         $('html').removeClass('nav-open');
@@ -11679,15 +11638,15 @@ lbd = {
                             $toggle.removeClass('toggled');
                          }, 400);
                     });
-                   
+
                     $('html').addClass('nav-open');
                     lbd.misc.navbar_menu_visible = 1;
-                    
+
                 }
             });
             navbar_initialized = true;
         }
-   
+
     }
 }
 
@@ -11709,3 +11668,46 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+angular.module('DataGrow')
+  .factory('d3Service', ['$document', '$q', '$rootScope', function($document, $q, $rootScope) {
+    var d = $q.defer();
+    function onScriptLoad() {
+      // Load client in the browser
+      $rootScope.$apply(function() { d.resolve(window.d3); });
+    }
+    // Create a script tag with d3 as the source
+    // and call our onScriptLoad callback when it
+    // has been loaded
+    var scriptTag = $document[0].createElement('script');
+    scriptTag.type = 'text/javascript';
+    scriptTag.async = true;
+    scriptTag.src = 'bower_components/d3/d3.js';
+    scriptTag.onreadystatechange = function () {
+    if (this.readyState === 'complete') { onScriptLoad(); }
+  };
+  scriptTag.onload = onScriptLoad;
+
+  var s = $document[0].getElementsByTagName('body')[0];
+  s.appendChild(scriptTag);
+
+  return {
+    d3: function() { return d.promise; }
+  };
+}]);
+
+angular.module('DataGrow').service('websocketService', ["$http", "$q", function( $http, $q ) {
+
+    let ws = new WebSocket('ws://localhost:8000');
+
+    ws.onopen = function() {
+        ws.send("Hello, World!");
+        alert("Message is sent...")
+    };
+
+    ws.onmessage = function (evt) {
+        var received = evt.data;
+        alert("received message: " + received);
+    }
+
+}]);
